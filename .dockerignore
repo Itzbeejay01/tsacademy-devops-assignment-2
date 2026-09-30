@@ -1,0 +1,11 @@
+.git
+.gitignore
+logs
+*.log
+*.tmp
+.DS_Store
+.vscode
+.idea
+README.md
+grade.sh
+test.sh
