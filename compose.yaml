@@ -1,0 +1,7 @@
+services:
+  diagnostic:
+    build:
+      context: .
+    image: tsacademy-diagnostic-tool
+    entrypoint: ["/app/diagnostic.sh"]
+    command: ["help"]
